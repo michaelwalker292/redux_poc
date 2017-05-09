@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "env",
+        "react",
+        "airbnb",
+        "jest"
+    ],
+    "plugins": [
+        "transform-flow-strip-types"
+    ]
+}

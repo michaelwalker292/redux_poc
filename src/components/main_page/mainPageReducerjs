@@ -1,0 +1,12 @@
+import Immutable from 'immutable';
+
+const initialState = {};
+
+const mainPageReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case "load":
+           return state.setIn([action.payload, VALUE], filter(action.payload));
+    }
+};
+
+export default mainPageReducer;
